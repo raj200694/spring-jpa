@@ -14,5 +14,6 @@ public class MyRESTController {
 	public Iterable<Contact> getContacts() {
 		return repository.findAll();
 	}
+	
 
 }
